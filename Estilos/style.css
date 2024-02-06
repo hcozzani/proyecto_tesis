@@ -1,0 +1,156 @@
+.navbarCustom{
+    /*background-color: #f5867f !important;*/
+    background-color: #000000 !important;
+}
+
+.navbar-brand{
+    font-weight:500;
+    letter-spacing: 0.2rem;
+    margin: 0 3rem 0 0;
+    font-size: 2rem;
+
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    /* margin: 1rem; */
+    padding: 0;
+    color: #ffffff !important;
+}
+
+
+/* Estilos Contenedor */
+.ContenedorPadre{
+    /* filter: brightness(0.5);     */
+    background-image: url(../img/fondoFlores.jpg);
+
+}
+
+.ContenedorProductos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 8rem 0 8rem;
+
+}
+
+.card{
+    margin: 1rem;
+    border: none;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card-text{
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+/* Boton modal search */
+.botonModal{
+    border: none;
+    background: none ;
+}
+
+/* Vista producto unitario */
+.ContenedorTalles{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorFotoProductoU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.imagenU{
+    width: 30rem !important;    
+}
+
+/* .ContenedorTalleU{
+} */
+.contenedorDetallesU{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.tituloU{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.7rem;
+    margin: 0;
+    border:none;
+    font-weight: 600;
+}
+.precioU{
+    font-size: 3.6rem;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    border: none;
+    font-weight: 600;
+
+}
+
+.recuadro{
+    background-color: none;
+    border: gray solid 2.5px;
+}
+
+.recuadro {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.inputU{
+    width: 15% !important;
+    border: gray solid 2.5px !important;
+
+}
+
+/* Estilos para el texto dentro de los recuadros */
+.valor {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botonU{
+    background-color: #f5867f !important;
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 500 !important;
+}
+
+.nav-item:hover .nav-link {
+    color: #ff91b6 !important; 
+  }
+  

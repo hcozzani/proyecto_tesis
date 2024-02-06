@@ -1,0 +1,96 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+html, body, main {
+    height: 100%;
+}
+
+
+
+h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+#panel-right form input {
+    background-color: unset;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.btn.btn-primary {
+    border: 0 !important;
+    border-radius: 50px !important;
+    background-color: #000000 !important;
+    padding: 15px 40px !important;
+    color: #ff91b6 !important;
+    font-weight: 400 !important;
+}
+
+nav, .navbar-brand{
+    background-color: rgb(0, 0, 0);
+    position: relative; 
+    
+}
+
+.logo{
+    max-height: 67px; /* Establece la altura deseada en píxeles */
+    margin-left: 30px;
+}
+
+a{
+    background-color: #000000;
+    
+}
+
+.navbar a.navbar-brand{
+    font-size: 20px; 
+    color: white;
+    display: inline-block; /* Hace que el elemento sea un bloque en línea para controlar su tamaño */
+    background-color: #000000;
+    letter-spacing: -0.1px;
+}
+
+.btn.btn-danger{
+    color: rgb(255, 255, 255);
+    display: inline-block; /* Hace que el elemento sea un bloque en línea para controlar su tamaño */
+    background-color: #ec0000;
+    letter-spacing: -0.1px;
+    margin-bottom: 0.5%;
+}
+
+.btnComprar a.btn-comprar{
+    color: rgb(255, 255, 255);
+    display: inline-block; /* Hace que el elemento sea un bloque en línea para controlar su tamaño */
+    background-color: #ff91b6;
+    border-radius: 50px;
+    letter-spacing: -0.1px;
+    margin-bottom: 0.5%;
+}
+
+.navbar a:hover{
+    color: #ff91b6;
+}
+
+.icono-y-texto a{
+    color: #ffffff;
+    display: inline-flex; /* Establece el contenedor como un flex container */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+    margin-left: auto;
+  }
+  
+.btn-comprar{
+    color: rgb(255, 255, 255);
+    border: none;
+    display: inline-block; /* Hace que el elemento sea un bloque en línea para controlar su tamaño */
+    background-color: #ff91b6;
+    border-radius: 50px;
+    letter-spacing: -0.1px;
+    margin-bottom: 0.5%;
+    padding: 5px 15px !important;
+}
+
